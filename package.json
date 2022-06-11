@@ -2,6 +2,7 @@
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://Vicky522.github.io/my-app",
   "dependencies": {
     "@chakra-ui/icons": "^2.0.2",
     "@chakra-ui/react": "^2.2.1",
@@ -25,6 +26,8 @@
     "web-vitals": "^0.2.2"
   },
   "scripts": {
+    "predeploy": "yarn build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
