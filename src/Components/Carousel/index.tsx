@@ -10,7 +10,7 @@ type CarouselProps = {
 const Carousel = (props: CarouselProps) => {
   const { children } = props;
   return (
-    <Swiper modules={[Scrollbar, A11y]} spaceBetween={12} slidesPerView={1.5}>
+    <Swiper modules={[Scrollbar, A11y]} slidesPerView={1.6}>
       {children}
     </Swiper>
   );
