@@ -18,6 +18,7 @@ const Header = (props: Props) => {
   const headerData = useMemo(() => {
     return listIcon;
   }, []);
+
   return (
     <Box
       display="flex"

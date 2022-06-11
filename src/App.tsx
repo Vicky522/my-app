@@ -5,7 +5,7 @@ import Home from './Page/Home/';
 export const App = () => (
   <ChakraProvider theme={theme}>
     <Home />
-    <Box position="sticky" bottom="0">
+    <Box position="sticky" bottom="0" zIndex="1">
       <Header />
     </Box>
   </ChakraProvider>

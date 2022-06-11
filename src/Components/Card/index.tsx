@@ -11,7 +11,7 @@ const Card = (props: CardProps) => {
   return (
     <Box
       w="200px"
-      h="260px"
+      h="250px"
       border="1px solid #F1F1F5"
       borderRadius="4px"
       boxShadow="0px 12px 18px rgba(23, 23, 37, 0.04)"
